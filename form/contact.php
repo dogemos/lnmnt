@@ -21,7 +21,7 @@ $emailTO[] = array( 'email' => 'atlas@lunamint.com', 'name' => 'Lunamint Atlas' 
 $subject = "Contact Us " . ' - ' . $sitename; 
 
 ### If your did not recive email after submit form please enable below line and must change to your correct domain name. eg. noreply@example.com
-//$formEmail = 'noreply@yoursite.com';
+$formEmail = 'noreply@lunamint.com';
 
 ### Success Messages
 $msg_success = "We have <strong>successfully</strong> received your message. We'll get back to you soon.";
