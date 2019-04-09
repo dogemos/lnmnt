@@ -6,10 +6,10 @@ $mail = new PHPMailer();
 $emailTO = $emailBCC =  $emailCC = array(); $formEmail = '';
 
 ### Enter Your Sitename 
-$sitename = 'lunamint.com';
+$sitename = 'https://www.lunamint.com';
 
 ### Enter your email addresses: @required
-$emailTO[] = array( 'email' => 'hello@lunamint.com', 'name' => 'Josh Lee' ); 
+$emailTO[] = array( 'email' => 'atlas@lunamint.com', 'name' => 'Lunamint Atlas' ); 
 
 ### Enable bellow parameters & update your BCC email if require.
 //$emailBCC[] = array( 'email' => 'email@yoursite.com', 'name' => 'Your Name' );
